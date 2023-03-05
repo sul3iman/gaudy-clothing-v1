@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
 .navigation {
   height: 70px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
+  // background-color: turquoise; 
+
 
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    width: 300px;
+    padding: 20px;
+
+    .logo{
+      font-family: 'Skranji', cursive;
+      font-size: 30px;
+      
+    }
   }
 
   .nav-links-container {
@@ -18,9 +29,13 @@
     align-items: center;
     justify-content: flex-end;
 
+
+    
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+      // color: white;
+      // font-weight: 500;
     }
   }
 }
